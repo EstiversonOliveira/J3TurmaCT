@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-  --bg-color: #222831;
-  --primary-color: #DDDDDD;
-  --secundary-color: #F05454;
+  --bg-color: #000000;
+  --primary-color: #468585;
+  --secundary-color: #ca2a0a;
   --font: Grandstander;
 }
 
@@ -68,7 +68,8 @@ body {
     margin-top: 2rem;
   }
 
-  span {
+  span{
     font-weight: bold;
-    color: var(--secundary-color);
-  }
+    color: var(--primary-color);
+    background-color: var(--secundary-color);
+}
